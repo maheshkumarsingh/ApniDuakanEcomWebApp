@@ -1,0 +1,6 @@
+E:\CTS_Training\C#\ApniDuakanEcomWebApp\Entities\bin\Debug\Entities.dll
+E:\CTS_Training\C#\ApniDuakanEcomWebApp\Entities\bin\Debug\Entities.pdb
+E:\CTS_Training\C#\ApniDuakanEcomWebApp\Entities\obj\Debug\Entities.csproj.AssemblyReference.cache
+E:\CTS_Training\C#\ApniDuakanEcomWebApp\Entities\obj\Debug\Entities.csproj.CoreCompileInputs.cache
+E:\CTS_Training\C#\ApniDuakanEcomWebApp\Entities\obj\Debug\Entities.dll
+E:\CTS_Training\C#\ApniDuakanEcomWebApp\Entities\obj\Debug\Entities.pdb

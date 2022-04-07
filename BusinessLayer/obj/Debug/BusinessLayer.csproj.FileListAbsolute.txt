@@ -1,0 +1,6 @@
+E:\CTS_Training\C#\ApniDuakanEcomWebApp\BusinessLayer\bin\Debug\BusinessLayer.dll
+E:\CTS_Training\C#\ApniDuakanEcomWebApp\BusinessLayer\bin\Debug\BusinessLayer.pdb
+E:\CTS_Training\C#\ApniDuakanEcomWebApp\BusinessLayer\obj\Debug\BusinessLayer.csproj.AssemblyReference.cache
+E:\CTS_Training\C#\ApniDuakanEcomWebApp\BusinessLayer\obj\Debug\BusinessLayer.csproj.CoreCompileInputs.cache
+E:\CTS_Training\C#\ApniDuakanEcomWebApp\BusinessLayer\obj\Debug\BusinessLayer.dll
+E:\CTS_Training\C#\ApniDuakanEcomWebApp\BusinessLayer\obj\Debug\BusinessLayer.pdb

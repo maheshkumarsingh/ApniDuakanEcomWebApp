@@ -1,0 +1,6 @@
+E:\CTS_Training\C#\ApniDuakanEcomWebApp\SQLHelper\bin\Debug\SQLHelper.dll
+E:\CTS_Training\C#\ApniDuakanEcomWebApp\SQLHelper\bin\Debug\SQLHelper.pdb
+E:\CTS_Training\C#\ApniDuakanEcomWebApp\SQLHelper\obj\Debug\SQLHelper.csproj.AssemblyReference.cache
+E:\CTS_Training\C#\ApniDuakanEcomWebApp\SQLHelper\obj\Debug\SQLHelper.csproj.CoreCompileInputs.cache
+E:\CTS_Training\C#\ApniDuakanEcomWebApp\SQLHelper\obj\Debug\SQLHelper.dll
+E:\CTS_Training\C#\ApniDuakanEcomWebApp\SQLHelper\obj\Debug\SQLHelper.pdb

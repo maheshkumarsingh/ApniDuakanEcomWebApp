@@ -1,0 +1,6 @@
+E:\CTS_Training\C#\ApniDuakanEcomWebApp\DAOLayer\bin\Debug\DAOLayer.dll
+E:\CTS_Training\C#\ApniDuakanEcomWebApp\DAOLayer\bin\Debug\DAOLayer.pdb
+E:\CTS_Training\C#\ApniDuakanEcomWebApp\DAOLayer\obj\Debug\DAOLayer.csproj.AssemblyReference.cache
+E:\CTS_Training\C#\ApniDuakanEcomWebApp\DAOLayer\obj\Debug\DAOLayer.csproj.CoreCompileInputs.cache
+E:\CTS_Training\C#\ApniDuakanEcomWebApp\DAOLayer\obj\Debug\DAOLayer.dll
+E:\CTS_Training\C#\ApniDuakanEcomWebApp\DAOLayer\obj\Debug\DAOLayer.pdb

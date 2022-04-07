@@ -1,0 +1,6 @@
+E:\CTS_Training\C#\ApniDuakanEcomWebApp\DBConnection\bin\Debug\DBConnection.dll
+E:\CTS_Training\C#\ApniDuakanEcomWebApp\DBConnection\bin\Debug\DBConnection.pdb
+E:\CTS_Training\C#\ApniDuakanEcomWebApp\DBConnection\obj\Debug\DBConnection.csproj.AssemblyReference.cache
+E:\CTS_Training\C#\ApniDuakanEcomWebApp\DBConnection\obj\Debug\DBConnection.csproj.CoreCompileInputs.cache
+E:\CTS_Training\C#\ApniDuakanEcomWebApp\DBConnection\obj\Debug\DBConnection.dll
+E:\CTS_Training\C#\ApniDuakanEcomWebApp\DBConnection\obj\Debug\DBConnection.pdb
