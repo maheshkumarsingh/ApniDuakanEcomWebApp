@@ -34,6 +34,7 @@
                 </center>
             </div>
         </div>
+        <br />
         <div class="row">
             <div class="col-md-4">
                 <div id="cardOne" class="card">
@@ -82,7 +83,7 @@
                                         <asp:BoundField DataField="price" HeaderText="price" SortExpression="price" />
                                         <asp:BoundField DataField="stock" HeaderText="stock" SortExpression="stock" />
                                         <asp:BoundField DataField="category" HeaderText="category" SortExpression="category" />
-                                        <asp:BoundField DataField="mfg_date" HeaderText="mfg_date" SortExpression="mfg_date " DataFormatString="{0:dd}"/>
+                                        <asp:BoundField DataField="mfg_date" HeaderText="mfg_date" SortExpression="mfg_date" DataFormatString="{0:dd-MM-yyyy}"/>
                                     </Columns>
                                 </asp:GridView>
                             </div>

@@ -5,21 +5,13 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 
-namespace ApniDukanEcommerceApplication
+namespace UI
 {
-    public partial class adminSignUpPage : System.Web.UI.Page
+    public partial class adminLoginPage : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {
 
-        }
-
-        protected void textAdminID_TextChanged(object sender, EventArgs e)
-        {
-        }
-
-        public void checkCredentials()
-        {
         }
     }
 }

@@ -7,11 +7,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace ApniDukanEcommerceApplication
+namespace UI
 {
 
 
-    public partial class adminSignUpPage
+    public partial class adminLoginPage
     {
 
         /// <summary>
