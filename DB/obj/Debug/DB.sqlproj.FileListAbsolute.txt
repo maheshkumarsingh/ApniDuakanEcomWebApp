@@ -1,0 +1,6 @@
+E:\CTS_Training\C#\ApniDuakanEcomWebApp\DB\bin\Debug\DB.dacpac
+E:\CTS_Training\C#\ApniDuakanEcomWebApp\DB\bin\Debug\DB.dll
+E:\CTS_Training\C#\ApniDuakanEcomWebApp\DB\bin\Debug\DB.pdb
+E:\CTS_Training\C#\ApniDuakanEcomWebApp\DB\obj\Debug\DB.sqlproj.AssemblyReference.cache
+E:\CTS_Training\C#\ApniDuakanEcomWebApp\DB\obj\Debug\DB.dll
+E:\CTS_Training\C#\ApniDuakanEcomWebApp\DB\obj\Debug\DB.pdb

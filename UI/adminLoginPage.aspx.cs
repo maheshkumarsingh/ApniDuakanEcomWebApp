@@ -13,5 +13,10 @@ namespace UI
         {
 
         }
+
+        protected void textAdminID_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
