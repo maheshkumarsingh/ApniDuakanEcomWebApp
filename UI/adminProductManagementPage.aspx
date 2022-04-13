@@ -27,7 +27,7 @@
                             <div class="col">
                                 <div class="form-group d-grid gap-2">
                                     <asp:Button CssClass="btn btn-success btn-lg" ID="ButtonUserManagement"
-                                        runat="server" Text="User Management" />
+                                        runat="server" Text="User Management" OnClick="ButtonUserManagement_Click" />
                                 </div>
                                 <br />
                             </div>
@@ -76,7 +76,7 @@
                             <div class="col">
                                 <div class="form-group d-grid gap-2">
                                     <asp:Button CssClass="btn btn-outline-primary" ID="ButtonAddProduct"
-                                        runat="server" Text="Add Product" />
+                                        runat="server" Text="Add Product" OnClick="ButtonAddProduct_Click" />
                                 </div>
                             </div>
                         </div>
@@ -85,7 +85,7 @@
                             <div class="col">
                                 <div class="form-group d-grid gap-2">
                                     <asp:Button CssClass="btn btn-outline-warning" ID="ButtonUpdateProduct"
-                                        runat="server" Text="Update Product" />
+                                        runat="server" Text="Update Product" OnClick="ButtonUpdateProduct_Click" />
                                 </div>
                             </div>
                         </div>
@@ -94,7 +94,7 @@
                             <div class="col">
                                 <div class="form-group d-grid gap-2">
                                     <asp:Button CssClass="btn btn-outline-danger" ID="ButtonDeleteProduct"
-                                        runat="server" Text="Delete Product" />
+                                        runat="server" Text="Delete Product" OnClick="ButtonDeleteProduct_Click" />
                                 </div>
                             </div>
                         </div>

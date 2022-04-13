@@ -68,6 +68,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="adminProductCRUD.aspx" />
     <Content Include="adminProductManagementPage.aspx" />
     <Content Include="adminUserManagement.aspx" />
     <Content Include="adminHomePage.aspx" />
@@ -2224,6 +2225,7 @@
     <Content Include="images\adminuser.png" />
     <Content Include="images\HomePage.jpg" />
     <Content Include="images\logo.png" />
+    <Content Include="images\products.jpg" />
     <Content Include="jquery\.gitignore" />
     <Content Include="jquery\assets\css\bootstrap.min.css" />
     <Content Include="jquery\assets\css\docs.css" />
@@ -2291,6 +2293,13 @@
     <Content Include="MasterPage.Master" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="adminProductCRUD.aspx.cs">
+      <DependentUpon>adminProductCRUD.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="adminProductCRUD.aspx.designer.cs">
+      <DependentUpon>adminProductCRUD.aspx</DependentUpon>
+    </Compile>
     <Compile Include="adminProductManagementPage.aspx.cs">
       <DependentUpon>adminProductManagementPage.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
