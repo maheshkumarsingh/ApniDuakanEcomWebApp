@@ -2226,6 +2226,7 @@
     <Content Include="images\HomePage.jpg" />
     <Content Include="images\logo.png" />
     <Content Include="images\products.jpg" />
+    <Content Include="images\userDashboard.jpg" />
     <Content Include="jquery\.gitignore" />
     <Content Include="jquery\assets\css\bootstrap.min.css" />
     <Content Include="jquery\assets\css\docs.css" />
@@ -2288,6 +2289,7 @@
     <Content Include="jquery\third-party\wijmo\jquery.mousewheel.min.js" />
     <Content Include="jquery\third-party\wijmo\jquery.wijmo-open.1.5.0.css" />
     <Content Include="jquery\third-party\wijmo\jquery.wijmo-open.1.5.0.min.js" />
+    <Content Include="userDashboard.aspx" />
     <Content Include="userSignUpPage.aspx" />
     <Content Include="Web.config" />
     <Content Include="MasterPage.Master" />
@@ -2343,6 +2345,13 @@
       <DependentUpon>MasterPage.Master</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="userDashboard.aspx.cs">
+      <DependentUpon>userDashboard.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="userDashboard.aspx.designer.cs">
+      <DependentUpon>userDashboard.aspx</DependentUpon>
+    </Compile>
     <Compile Include="userSignUpPage.aspx.cs">
       <DependentUpon>userSignUpPage.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
