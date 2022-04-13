@@ -77,7 +77,7 @@
                         <div class="row">
                             <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:ApniDukanDBConnectionString %>" SelectCommand="SELECT [Name], [price], [stock], [category], [mfg_date] FROM [Product]"></asp:SqlDataSource>
                             <div class="col">
-                                <asp:GridView class="table table-bordered table-striped" ID="GridView1" runat="server" AutoGenerateColumns="False" DataSourceID="SqlDataSource1" Width="765px" OnSelectedIndexChanged="GridView1_SelectedIndexChanged">
+                                <asp:GridView class="table table-bordered table-striped" ID="GridView1" runat="server" AutoGenerateColumns="False" DataSourceID="SqlDataSource1" Width="765px">
                                     <Columns>
                                         <asp:BoundField DataField="Name" HeaderText="Name" SortExpression="Name" />
                                         <asp:BoundField DataField="price" HeaderText="price" SortExpression="price" />

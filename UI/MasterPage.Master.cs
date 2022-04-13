@@ -18,5 +18,11 @@ namespace ApniDukanEcommerceApplication
         {
             Response.Redirect("adminLoginPage.aspx");
         }
+
+        protected void UserSignUp_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("userSignUpPage.aspx");
+
+        }
     }
 }

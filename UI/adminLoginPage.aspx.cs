@@ -14,9 +14,14 @@ namespace UI
 
         }
 
-        protected void textAdminID_TextChanged(object sender, EventArgs e)
-        {
+        
 
+        protected void Button1_Click(object sender, EventArgs e)
+        {
+            if (textAdminID.Text.Trim().Equals("mahesh123") && textAdminPassword.Text.Trim().Equals("mahesh123"))
+                Response.Redirect("adminHomePage.aspx");
+            else
+                Response.Write("<script>alert('Incorrect Admin Credentials'); </script>");
         }
     }
 }

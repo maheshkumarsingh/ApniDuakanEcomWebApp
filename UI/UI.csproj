@@ -68,6 +68,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="adminProductManagementPage.aspx" />
+    <Content Include="adminUserManagement.aspx" />
+    <Content Include="adminHomePage.aspx" />
     <Content Include="adminLoginPage.aspx" />
     <Content Include="bootstrap\css\bootstrap-grid.css" />
     <Content Include="bootstrap\css\bootstrap-grid.min.css" />
@@ -2283,10 +2286,32 @@
     <Content Include="jquery\third-party\wijmo\jquery.mousewheel.min.js" />
     <Content Include="jquery\third-party\wijmo\jquery.wijmo-open.1.5.0.css" />
     <Content Include="jquery\third-party\wijmo\jquery.wijmo-open.1.5.0.min.js" />
+    <Content Include="userSignUpPage.aspx" />
     <Content Include="Web.config" />
     <Content Include="MasterPage.Master" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="adminProductManagementPage.aspx.cs">
+      <DependentUpon>adminProductManagementPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="adminProductManagementPage.aspx.designer.cs">
+      <DependentUpon>adminProductManagementPage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="adminUserManagement.aspx.cs">
+      <DependentUpon>adminUserManagement.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="adminUserManagement.aspx.designer.cs">
+      <DependentUpon>adminUserManagement.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="adminHomePage.aspx.cs">
+      <DependentUpon>adminHomePage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="adminHomePage.aspx.designer.cs">
+      <DependentUpon>adminHomePage.aspx</DependentUpon>
+    </Compile>
     <Compile Include="adminLoginPage.aspx.cs">
       <DependentUpon>adminLoginPage.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -2309,6 +2334,13 @@
       <DependentUpon>MasterPage.Master</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="userSignUpPage.aspx.cs">
+      <DependentUpon>userSignUpPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="userSignUpPage.aspx.designer.cs">
+      <DependentUpon>userSignUpPage.aspx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Content Include="bootstrap\css\bootstrap-grid.css.map" />

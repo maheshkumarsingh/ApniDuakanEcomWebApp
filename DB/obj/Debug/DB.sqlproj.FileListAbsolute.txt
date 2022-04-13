@@ -4,3 +4,7 @@ E:\CTS_Training\C#\ApniDuakanEcomWebApp\DB\bin\Debug\DB.pdb
 E:\CTS_Training\C#\ApniDuakanEcomWebApp\DB\obj\Debug\DB.sqlproj.AssemblyReference.cache
 E:\CTS_Training\C#\ApniDuakanEcomWebApp\DB\obj\Debug\DB.dll
 E:\CTS_Training\C#\ApniDuakanEcomWebApp\DB\obj\Debug\DB.pdb
+E:\CTS_Training\C#\ApniDuakanEcomWebApp\DB\obj\Debug\Model.xml
+E:\CTS_Training\C#\ApniDuakanEcomWebApp\DB\obj\Debug\refactor.xml
+E:\CTS_Training\C#\ApniDuakanEcomWebApp\DB\obj\Debug\postdeploy.sql
+E:\CTS_Training\C#\ApniDuakanEcomWebApp\DB\obj\Debug\predeploy.sql

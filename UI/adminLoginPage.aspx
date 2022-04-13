@@ -8,7 +8,7 @@
     </style>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-    <div id="content" class="container">
+    <div id="content" class="container-fluid">
         <div class="row">
             <div class="col-md-6 mx-auto">
                 <div class="card">
@@ -28,8 +28,8 @@
                             <div class="col">
                                 <div class="form-group">
                                     <label for="AdminEmail"> Admin ID</label>
-                                    <asp:TextBox CssClass="form-control" ID="textAdminID" runat="server"
-                                        placeholder="Admin ID" OnTextChanged="textAdminID_TextChanged"></asp:TextBox>
+                                    <asp:TextBox  CssClass="form-control" ID="textAdminID" runat="server"
+                                        placeholder="Admin ID"></asp:TextBox>
                                 </div>
                             </div>
                         </div>
@@ -38,7 +38,7 @@
                             <div class="col">
                                 <div class="form-group">
                                     <label for="AdminPassword"> Admin Password</label>
-                                    <asp:TextBox CssClass="form-control" ID="textAdminPassword" runat="server"
+                                    <asp:TextBox TextMode="Password" CssClass="form-control" ID="textAdminPassword" runat="server"
                                         placeholder="Enter Password"></asp:TextBox>
                                 </div>
                             </div>
@@ -46,7 +46,7 @@
                         <br />
                         <div class="form-group d-grid gap-2">
                             <asp:Button ID="Button1" CssClass="btn btn-success btn-lg" runat="server" 
-                                Text="Login" />
+                                Text="Login" OnClick="Button1_Click" />
                         </div>
                     </div>
                 </div>
