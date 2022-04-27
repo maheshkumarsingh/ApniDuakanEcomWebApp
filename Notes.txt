@@ -1,0 +1,96 @@
+ASP.NET web API is a framework for building Web APIs i.e HTTP based services on top of the .NET framework.
+Application Program Interface is used to create RESTful services.
+
+What are RESTful services
+
+REST stands for Represebtational State Transfer.
+REST is an architectural pattern for creating services. REST architectural pattern specifies a set of constraints that a system should adhere to.
+
+REST contraints
+1) Client server-- client send request and server responds to that request.
+2) Stateless -- We are not storing anything on server. Client send request(ID) and server repsonds to that request(ID) but server is not storing the ID.
+                Each request can be treated independently by the server.
+3) Cacheable -- store frequest data in cache and if the client needs the data again provide it browser only dont come to server again and again. i.e Products in our ApniDukan.
+                avoids loading and surfing.
+4) Unifrom Interface-- Interface between the client and server. Resource is data entities. products , employees
+                       HTTPverbs-- GET PUT POST DELETE
+                       
+                       Resource                          Verb                Outcome
+
+                       /Employees                        GET                  Get list of employees
+                       /Employees/1                     GET                  Get employee with id=1
+                       /Employees                        POST                Creates a new employee
+                       /Employees/1                     PUT                  Updates employee with id=1
+                       /Employees/1                     DELETE             Deletes employee with id=1
+
+
+--HATEOS(Hypermedia as the engine of Application State)
+  
+5) Layered System
+6) Code on demand
+
+
+What is WCF
+-- WCF windows communication foundation is also used to create RESTful services but lot of configuration is required to make a RESTful.
+ASP.NET Web API is created for creating web apis easily.
+
+
+When to use WCF over ASP.NET Web API
+-- Creating services that are transport/protocol independent. Single service with multiple end points.(Java client and .NET client working in ONE service)
+-- You have an existing SOAP service you must support but want to add REST to reach more clients
+-- IF you have .NET 3.5 limitation.
+
+-> Request Verbs-- GET POST PUT DELETE  is nothing but CRUD operations.
+                              These verbs describe that what should be done with the resource.
+   Request header -- contains additional information about the request. Example- what type of resource is required.
+   Request Body-- contains the data to send to the server.
+   Response Body-- contains the data sent as response from the server.
+   Response Status Code -- Provide the client, the status of the request.
+                                        200 - OK
+                                        404- not found
+                                        204 - no content
+
+Performed GET/POST/PUT/DELETE by Fidler. perform without fidler?  ---- Yes 
+
+
+NOTES
+
+For JSON data back -- Accept: application/json
+
+Content negotiation
+--format of the response we want either in XML/JSON
+--Header -- type the format     Accept: application/json
+                                              Accept: application/xml
+
+POST
+If a method return type is VOID, by default status code is 204 NO Content is returned.
+When a new item is created, we should be returning status code 201 Item created.
+With 201 status code we should also include the location i.e URI of the newwely created item.
+When a item is NOT found -- return status code 404 NOT found with meaningful message such as Employee id 101 is not found.
+
+PUT facing problem == Solved: Content-Type:application/json
+DELETE done
+
+Query String Parameters
+https://localhost:44330/api/employee?gender=all ---> all employees
+https://localhost:44330/api/employee?gender=male ---> male employees
+https://localhost:44330/api/employee?gender=female ---> female employees
+
+-> FromBody and FromURI attributes
+     Simple parameters type then FromURI and if complex type then FromBody
+     By default-- it is FromUri
+     Use [FromBody] attribute to force Web API to get simple types from the request body.
+     Use [FromURI] attribute to force Web API to get complex types from the request URI(i.e Routedata or QueryString).
+     [FromURI] = https://localhost:44330/api/employee?id=1&FirstName=FNFromURI&LastName=FromURI&Gender=Female&Salary=90000
+     [FromBody] = in body 1 https://localhost:44330/api/employee? FirstName=FNFromURI&LastName=FromURI&Gender=Female&Salary=90000
+
+
+ Cross Domain Ajax issue:-
+ when html page is in same folder of services then no issue:-  
+ when html page is NOT in same folder of services then two ways to solve it :-
+
+1) JSONP --- JSON with Padding
+2) CORS -- Cross origin Resource sharing.
+
+
+
